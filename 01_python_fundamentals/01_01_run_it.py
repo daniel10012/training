@@ -1,3 +1,7 @@
+print("yolo")
+
+
+
 '''
 1 - Write and execute a script that prints "hello world" to the console.
 
