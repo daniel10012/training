@@ -18,3 +18,5 @@ print("yolo")
 	- Calculate how many seconds are in a year.
 
 '''
+s = 365 * 24 * 60 * 60
+print(s)
