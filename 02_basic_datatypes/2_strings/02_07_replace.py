@@ -8,3 +8,14 @@ Result: #ore python progra##ing please
 
 '''
 
+sentence = input("sentence")
+symbol = input("symbol")
+new_sentence = ""
+
+f = sentence[0]
+for letter in sentence:
+    if letter == f:
+        letter = symbol
+    new_sentence += letter
+
+print(new_sentence)

@@ -7,3 +7,15 @@ Letter input: o
 Result: 4
 
 '''
+
+sentence = "hello world"
+l = "o"
+index = 0
+
+for letter in sentence:
+    if letter == l:
+        break
+    index += 1
+
+print(index)
+
