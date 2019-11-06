@@ -9,3 +9,17 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+
+list = [2,3,1]
+l = list[0]
+for i in range(len(list)):
+    if list[i]>=l:
+        l=list[i]
+
+print(l)
+
+
+p=1
+for n in list:
+    p *= n
+print(p)
