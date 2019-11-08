@@ -7,3 +7,20 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+
+# list_ = []
+# for i in range(10):
+#     num = input("number:")
+#     list_.append(num)
+
+list_ = [1,2,3,4,5,6,7,8,9,10]
+
+for i in range(0,len(list_)):
+    if i % 2 != 0:
+        print(list_[i])
+
+for i in range(len(list_)-1,-1,-1):
+    if i % 2 == 0:
+        print(list_[i])
+
